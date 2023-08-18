@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functional dom</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class=" w-3/4 mt-7 mx-auto text-center ">
+            <h1 class="text-5xl"><span class="text-red-700 font-bold">3 Sisters </span>flower store</h1>
+            <div id="selected-items" class="selected-items text-xl text-red-800 decoration-solid">
+                <P>Selected Items:</P>
+
+            </div>
+            <p class="text-2xl">shopping cart</p>
+            <p class="text-xl">price: $<span id="total-price">00</span></p>
+        </div>
+
+    </header>
+
+    <section class="grid gap-4 grid-cols-3 w-3/4 mx-auto mt-8">
+        <div class=" card bg-base-100 shadow-xl">
+            <img class="h-80" src="/images/pngwing 10.png" alt="Shoes">
+            <div class="card-body">
+                <h2 class="card-title mx-auto text-4xl text-pink-700">Pink Tulip!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p class="text-center text-xl text-red-700">Price: $ 20</p>
+                <button onclick="handleClickBtn(this)" class=" btn btn-primary mx-auto hover:bg-sky-500">Buy
+                    Now</button>
+            </div>
+        </div>
+        <div class=" card bg-base-100 shadow-xl">
+            <img class="h-80" src="/images/pngwing 7.png" alt="Shoes">
+            <div class="card-body">
+                <h2 class="card-title mx-auto text-4xl text-pink-700">Yellow Tulip!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p class="text-center text-xl text-red-700">Price: $ 15</p>
+                <button onclick="handleClickBtn(this)" class=" btn btn-primary mx-auto hover:bg-sky-500">Buy
+                    Now</button>
+            </div>
+        </div>
+        <div class=" card bg-base-100 shadow-xl">
+            <img class="h-80" src="/images/pngwing 8.png" alt="Shoes">
+            <div class="card-body">
+                <h2 class="card-title mx-auto text-4xl text-pink-700">Red Tulip!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p class="text-center text-xl text-red-700">Price: $ 12</p>
+                <button onclick="handleClickBtn(this)" class=" btn btn-primary mx-auto hover:bg-sky-500">Buy
+                    Now</button>
+            </div>
+        </div>
+
+        <div class=" card bg-base-100 shadow-xl">
+            <img class="h-80" src="/images/pngwing 7.png" alt="Shoes">
+            <div class="card-body">
+                <h2 class="card-title mx-auto text-4xl text-pink-700">Yellow Tulip!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p class="text-center text-xl text-red-700">Price: $ 15</p>
+                <button onclick="handleClickBtn(this)" class=" btn btn-primary mx-auto hover:bg-sky-500">Buy
+                    Now</button>
+            </div>
+        </div>
+        <div class=" card bg-base-100 shadow-xl">
+            <img class="h-80" src="/images/pngwing 8.png" alt="Shoes">
+            <div class="card-body">
+                <h2 class="card-title mx-auto text-4xl text-pink-700">Red Tulip!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p class="text-center text-xl text-red-700">Price: $ 12</p>
+                <button onclick="handleClickBtn(this)" class=" btn btn-primary mx-auto hover:bg-sky-500">Buy
+                    Now</button>
+            </div>
+        </div>
+        <div class=" card bg-base-100 shadow-xl">
+            <img class="h-80" src="/images/pngwing 10.png" alt="Shoes">
+            <div class="card-body">
+                <h2 class="card-title mx-auto text-4xl text-pink-700">Pink Tulip!</h2>
+                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p class="text-center text-xl text-red-700">Price: $ 20</p>
+                <button onclick="handleClickBtn(this)" class=" btn btn-primary mx-auto hover:bg-sky-500">Buy
+                    Now</button>
+
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+    <script src="./js.js"></script>
+</body>
+
+</html>
